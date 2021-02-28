@@ -40,7 +40,7 @@ public class TextEditor extends JFrame {
 
     public TextEditor() {
         Dimension dimension = Toolkit.getDefaultToolkit().getScreenSize();
-        setSize(dimension.width/2,dimension.height/2);
+        setSize(dimension.width/3,dimension.height/2);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
         setTitle("Text Editor");
@@ -133,26 +133,26 @@ public class TextEditor extends JFrame {
         panel = new JPanel();
         this.add(panel, BorderLayout.NORTH);
 
-        Icon openIcon = new ImageIcon("/Users/andrewquach/Projects/src/icons/open_icon.png");
+        Icon openIcon = new ImageIcon("/Users/andrewquach/Projects/Text Editor/src/resources/open_icon.png");
         openButton = new JButton(openIcon);
         openButton.setName("OpenButton");
 
-        Icon saveIcon = new ImageIcon("/Users/andrewquach/Projects/src/icons/save_icon.png");
+        Icon saveIcon = new ImageIcon("/Users/andrewquach/Projects/Text Editor/src/resources/save_icon.png");
         saveButton = new JButton(saveIcon);
         saveButton.setName("SaveButton");
 
         searchField = new JTextField(15);
         searchField.setName("SearchField");
 
-        Icon searchIcon = new ImageIcon("/Users/andrewquach/Projects/src/icons/search_icon.png");
+        Icon searchIcon = new ImageIcon("/Users/andrewquach/Projects/Text Editor/src/resources/search_icon.png");
         startSearchButton = new JButton(searchIcon);
         startSearchButton.setName("StartSearchButton");
 
-        Icon previousIcon = new ImageIcon("/Users/andrewquach/Projects/src/icons/previous_icon.png");
+        Icon previousIcon = new ImageIcon("/Users/andrewquach/Projects/Text Editor/src/resources/previous_icon.png");
         previousMatchButton = new JButton(previousIcon);
         previousMatchButton.setName("PreviousMatchButton");
 
-        Icon nextIcon = new ImageIcon("/Users/andrewquach/Projects/src/icons/next_icon.png");
+        Icon nextIcon = new ImageIcon("/Users/andrewquach/Projects/Text Editor/src/resources/next_icon.png");
         nextMatchButton = new JButton(nextIcon);
         nextMatchButton.setName("NextMatchButton");
 
