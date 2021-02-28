@@ -3,7 +3,7 @@
 A Text Editor built from scratch thats able to create and edit plain text files. The GUI handles key shortcuts, and the
 implemented search function is able to use regex. Project is built using Java and the Swing library.
 
-![image](/Users/andrewquach/Projects/Text Editor/src/resources/program_screenshot.png?raw=true)
+![image](https://raw.githubusercontent.com/andrewrquach/Text-Editor/blob/main/src/resources/program_screenshot.png)
 
 ## Contributing
 
